@@ -2,7 +2,7 @@
 Implementing Algorithms on Mnist Dataset
 
 #### Introduction
-We have used MNIST dataset in this project. The MNIST 
+I have used MNIST dataset in this project. The MNIST 
 dataset (Modified National Institute of Standards and Technology database) is a 
 large database of handwritten digits that is commonly used 
 for training various image processing systems. This dataset is also widely used for 
@@ -70,7 +70,7 @@ The output logs for each epoch display the training and validation accuracy and 
 The training process is logged with accuracy and loss metrics for both training (accuracy, loss) and validation (val_accuracy, val_loss) after each epoch.The final validation accuracy at the end of the training is around 99.88%, and the validation loss is approximately 0.0378, indicating a high level of performance on the validation set .A final evaluation on the test set shows an accuracy of roughly 98.79%.
 	
 #### CROSS-VALIDATION
-We performed Cross validation for the model that has given highest accuracy and improved it.
+I performed Cross validation for the model that has given highest accuracy and improved it.
 From the results of the Cross Validation we found that the 4th fold has given good accuracy score, which is 0.9896000027656555Hence that part of data can used as our improved model.
 
 
